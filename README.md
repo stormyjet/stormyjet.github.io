@@ -1,4 +1,4 @@
-StormyJetSite
+Stormy's Site
 =============
 Welcome to the GitHub page for StormyJet.com
 
