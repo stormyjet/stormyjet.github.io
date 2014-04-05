@@ -1,6 +1,3 @@
 Stormy's Site
 =============
-Welcome to the GitHub page for StormyJet.com
-
-
-Currently being MOVED from Dropbox to GitHub, if anything is broken please let me know.
+For more info, go to stormyjet.github.io
