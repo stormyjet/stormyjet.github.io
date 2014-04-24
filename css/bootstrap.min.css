@@ -16,6 +16,7 @@
 .notfound {
     font-size: 500%;
     text-align: center;
+    word-wrap: break-word;
 }
 html {
     font-family: sans-serif;
