@@ -133,11 +133,31 @@
         </center>
 
         <!-- Jumbotron -->
+            <div class="container">
+        <div>
+        <script>
+        var request = new XMLHttpRequest();
+request.onload = function() {
+    // get the file contents
+    var fileContent = this.responseText;
+    // split into lines
+    var fileContentLines = fileContent.split( '\n' );
+    // get a random index (line number)
+    var randomLineIndex = Math.floor( Math.random() * fileContentLines.length );
+    // extract the value
+    var randomLine = fileContentLines[ randomLineIndex ];
+
+    // add the random line in a div
+    document.getElementById( 'candy' ).innerHTML = randomLine;
+};
+request.open( 'GET', 'http://stormyjet.com/indexcandy.txt', true );
+request.send();
+</script>
 
         <div class="jumbotron ">
-            <h1>Hello!</h1>
-            <p class="lead ">My name is Stormy, and I make internet things. Welcome to my website.</p>
-            <p><a class="btn btn-lg btn-info " href="blog.html " role="button ">New Blog Post!</a>
+            <h1>StormyJet.com</h1>
+            <div id="candy" class="lead">I can't load any candy text! Or maybe I am right now?</div>
+            
             </p>
         </div>
 
@@ -157,9 +177,9 @@
                 </p>
             </div>
             <div class="col-lg-4 ">
-                <h2>sNet</h2>
-                <p>sNet is a way to unify many websites. It's pretty cool I think.</p>
-                <p><a class="btn btn-primary " href="network.html " role="button ">View details &raquo;</a>
+                <h2>Blog</h2>
+                <p>I have one of those.</p>
+                <p><a class="btn btn-primary " href="network.html " role="button ">Go now &raquo;</a>
                 </p>
             </div>
         </div>
