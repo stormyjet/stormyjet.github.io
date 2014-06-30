@@ -136,28 +136,32 @@
             <div class="container">
         <div>
         <script>
+            //candy loader
         var request = new XMLHttpRequest();
 request.onload = function() {
-    // get the file contents
+    // open the candies
     var fileContent = this.responseText;
     // split into lines
     var fileContentLines = fileContent.split( '\n' );
-    // get a random index (line number)
+    // get a random candy
     var randomLineIndex = Math.floor( Math.random() * fileContentLines.length );
-    // extract the value
+    // store the candy for use
     var randomLine = fileContentLines[ randomLineIndex ];
 
-    // add the random line in a div
+    // we grab the div id and insert a candy
     document.getElementById( 'candy' ).innerHTML = randomLine;
 };
+            //were grabbing the candies from here.
 request.open( 'GET', 'http://stormyjet.com/indexcandy.txt', true );
 request.send();
 </script>
 
         <div class="jumbotron ">
             <p style="font-size: 500%;">Stormy's Website</p>
-            <div id="candy" style="font-size: 200%;">I can't load any candy text! Or maybe I am right now?</div>
-            
+            <div id="candy" style="font-size: 200%;">I can't load any Candy! Or maybe I am right now?</div>
+            <p class="lead">In all seriousness, I'm Stormy and I make things on the internet. This is my website. Hello. Below are some links, and here are some other things I made<br>
+                <a href="cancer.html">The free online cancer checker</a>
+                <a href="pokecrate/index.html">I also redesigned the website for Pokecrate once.</a>
             </p>
         </div>
 <hr>
