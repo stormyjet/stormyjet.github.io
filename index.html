@@ -3,15 +3,21 @@
 
 <head>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-31660701-1', 'stormyjet.com');
-  ga('send', 'pageview');
-
-</script>
+        ga('create', 'UA-31660701-1', 'stormyjet.com');
+        ga('send', 'pageview');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -84,10 +90,15 @@
             <p style="font-size:22px"><strong>Uh-Oh.</strong> Looks like something bad happened, fix it?</p>
         </div>-->
     </center>
-    <noscript><div class="alert alert-info"><center>
-        <h2><strong>Candies are Disabled.</strong></h2><h3>To reenable, turn on javascript for this website.</h3>
-    </center></div></noscript>
-    
+    <noscript>
+        <div class="alert alert-info">
+            <center>
+                <h2><strong>Candies are Disabled.</strong></h2>
+                <h3>To reenable, turn on javascript for this website.</h3>
+            </center>
+        </div>
+    </noscript>
+
     <div class="container ">
 
         <div class="masthead ">
@@ -113,7 +124,7 @@
 
             </ul>
         </div>
-        
+
         <!--<li class="active "><a href="# ">Test</a></li>
           <li><a href="http://twitter.com/stormyjet ">Twitter</a></li>
           
@@ -130,76 +141,82 @@
         </center>
 
         <!-- Jumbotron -->
-            <div class="container">
-        <div>
-        <script>
-            //candy loader
-        var request = new XMLHttpRequest();
-request.onload = function() {
-    // open the candies
-    var fileContent = this.responseText;
-    // split into lines
-    var fileContentLines = fileContent.split( '\n' );
-    // get a random candy
-    var randomLineIndex = Math.floor( Math.random() * fileContentLines.length );
-    // store the candy for use
-    var randomLine = fileContentLines[ randomLineIndex ];
+        <div class="container">
+            <div>
+                <script>
+                    //candy loader
+                    var request = new XMLHttpRequest();
+                    request.onload = function() {
+                        // open the candies
+                        var fileContent = this.responseText;
+                        // split into lines
+                        var fileContentLines = fileContent.split('\n');
+                        // get a random candy
+                        var randomLineIndex = Math.floor(Math.random() * fileContentLines.length);
+                        // store the candy for use
+                        var randomLine = fileContentLines[randomLineIndex];
 
-    // we grab the div id and insert a candy
-    document.getElementById( 'candy' ).innerHTML = randomLine;
-};
-            //were grabbing the candies from here.
-request.open( 'GET', 'http://stormyjet.com/indexcandy.txt', true );
-request.send();
-</script>
+                        // we grab the div id and insert a candy
+                        document.getElementById('candy').innerHTML = randomLine;
+                    };
+                     //were grabbing the candies from here.
+                    request.open('GET', 'http://stormyjet.com/indexcandy.txt', true);
+                    request.send();
+                </script>
 
-        <div class="jumbotron ">
-            <p style="font-size: 750%;">Stormy's Website</p>
-            <div id="candy" style="font-size: 200%;">I can't load any Candies! Something went wrong!</div><br><br><hr>
-            <p class="lead">In all seriousness, I'm Stormy and I make things on the internet. This is my website. Hello. Below are some links, and here are some other things I made.<br>
-                <a href="cancer.html">The free online cancer checker</a><br>
-                <a href="pokecrate/index.html">I also redesigned the website for Pokecrate once.</a><br>
-                If you ask kindly enough at my <a href="http://twitter.com/stormyjet">Twitter</a>, I may be able to make something for you. Maybe.<br>
-            </p>
-            <p style="font-size: 10pt">You can refresh to change the tagline but you didn't hear that from me.</p>
-        </div>
-<hr>
-        <!-- Example row of columns -->
-        <div class="row ">
-            <div class="col-lg-4 ">
-                <h2>Meteor Game</h2>
-                <p>Meteor Game is a game that I made for no reason. See more info on the site.</p>
-                <p><a class="btn btn-primary " href="http://meteorgame.github.io " role="button ">View details &raquo;</a>
-                </p>
+                <div class="jumbotron ">
+                    <p style="font-size: 750%;">Stormy's Website</p>
+                    <div id="candy" style="font-size: 200%;">I can't load any Candies! Something went wrong!</div>
+                    <br>
+                    <br>
+                    <hr>
+                    <p class="lead">In all seriousness, I'm Stormy and I make things on the internet. This is my website. Hello. Below are some links, and here are some other things I made.
+                        <br>
+                        <a href="cancer.html">The free online cancer checker</a>
+                        <br>
+                        <a href="pokecrate/index.html">I also redesigned the website for Pokecrate once.</a>
+                        <br>If you ask kindly enough at my <a href="http://twitter.com/stormyjet">Twitter</a>, I may be able to make something for you. Maybe.
+                        <br>
+                    </p>
+                    <p style="font-size: 10pt">You can refresh to change the tagline but you didn't hear that from me.</p>
+                </div>
+                <hr>
+                <!-- Example row of columns -->
+                <div class="row ">
+                    <div class="col-lg-4 ">
+                        <h2>Meteor Game</h2>
+                        <p>Meteor Game is a game that I made for no reason. See more info on the site.</p>
+                        <p><a class="btn btn-primary " href="http://meteorgame.github.io " role="button ">View details &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <h2>MCFS</h2>
+                        <p class="text-danger ">Update: April Fools :)</p>
+                        <p>Matt Collins Fanservers, the fanservers dedicated to Mattophobia</p>
+                        <p><a class="btn btn-primary " href="http://mcfs.github.io " role="button ">View details &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <h2>Blog</h2>
+                        <p>I have one of those.</p>
+                        <p><a class="btn btn-primary " href="network.html " role="button ">Go now &raquo;</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Site footer -->
+                <div class="footer ">
+                    <p>Powered by <a href="dashboard.html ">Storm Engine</a> and <a href="network.html ">sNet</a>.
+                    </p>
+                </div>
+
             </div>
-            <div class="col-lg-4 ">
-                <h2>MCFS</h2>
-                <p class="text-danger ">Update: April Fools :)</p>
-                <p>Matt Collins Fanservers, the fanservers dedicated to Mattophobia</p>
-                <p><a class="btn btn-primary " href="http://mcfs.github.io " role="button ">View details &raquo;</a>
-                </p>
-            </div>
-            <div class="col-lg-4 ">
-                <h2>Blog</h2>
-                <p>I have one of those.</p>
-                <p><a class="btn btn-primary " href="network.html " role="button ">Go now &raquo;</a>
-                </p>
-            </div>
-        </div>
-
-        <!-- Site footer -->
-        <div class="footer ">
-            <p>Powered by <a href="dashboard.html ">Storm Engine</a> and <a href="network.html ">sNet</a>.
-            </p>
-        </div>
-
-    </div>
-    <!-- /container -->
+            <!-- /container -->
 
 
-    <!-- Bootstrap core JavaScript
+            <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+            <!-- Placed at the end of the document so the pages load faster -->
 </body>
 
 </html>
