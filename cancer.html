@@ -58,6 +58,16 @@
         <!-- Just for debugging purposes. Don't actually copy this line! -->
 
     </head>
+    <script type="text/javascript">
+        // Set up Cookies
+
+        var today = new Date();
+        var expiry = new Date(today.getTime() + 30 * 24 * 3600 * 1000); // set to expire in 30 days
+
+        function setCookie(name, value) {
+            document.cookie = name + "=" + escape(value) + "; path=/; expires=" + expiry.toGMTString();
+        }
+    </script>
 
     <body>
 
@@ -70,7 +80,7 @@
                     <div class="masthead clearfix">
                         <div class="inner">
                             <center>
-
+                                <h3>Cancer Checker, Online, Free, and Easy</h3>
                             </center>
 
                         </div>
@@ -82,9 +92,9 @@
                         <!--<h1 style="font-size:45pt;align:center">Input your symptoms that you see</h1>-->
                         <br>
                         <br>
-                        <form action="results.html">>
+                        <form action="results.html">
                             <center>
-                                <h1 style="float:center;font-size:45pt;"><input style="color:black" type="text" name="cancerinput" value="Input your symptoms"></input></h1>
+                                <h1 style="float:center;font-size:45pt;"><input style="color:black" type="text" name="sypmtomin" value="Input your symptoms"></input></h1>
                             </center>
                             <input type="submit" style="height: 0px; width: 0px; border: none; padding: 0px;" hidefocus="true" />
                         </form>
@@ -96,6 +106,12 @@
                             </button>
                             </p>
                         </div>
+                        <script type="text/javascript">
+                            function storeValues(form) {
+                                setCookie("sypmtomin", form.symptomin.value); //here we set the value of the form in a cookie.
+                                return true;
+                            }
+                        </script>
 
                         <div class="mastfoot">
                             <div class="inner">
