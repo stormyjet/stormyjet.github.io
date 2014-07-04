@@ -78,7 +78,7 @@
                 // Original JavaScript code by Chirp Internet: www.chirp.com.au
                  // Please acknowledge use of this code by including this header.
 
-                function getCookie(name) {
+                function getCookie(sypmtomin) {
                     var re = new RegExp(name + "=([^;]+)");
                     var value = re.exec(document.cookie);
                     return (value != null) ? unescape(value[1]) : null;
@@ -98,11 +98,13 @@
                     </div>
                     <script type="text/javascript">
                         //insert cookie
-                        document.write(getCookie("symptomin"));
+                        document.getElementById('symptom').innerHTML = (getCookie("symptomin"));;
                     </script>
                     <p class="notfound">
 
-                        The symptoms you entered seem to be a sign of...</p>
+                        The symptoms you entered
+                        <div id="symptom">loading....</div>
+                        seem to be a sign of...</p>
                     <br>
                     <div id="cancer" style="font-size: 500%;text-align: center;word-wrap: break-word;color:red">loading...</div>
                     <br>
