@@ -45,7 +45,7 @@
     <meta name="msapplication-square310x310logo" content="/img/mstile-310x310.png">
     <meta name="msapplication-wide310x150logo" content="/img/mstile-310x150.png">
     <title>Words by Stormy</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/justified-nav.css" rel="stylesheet">
     <style type="text/css">
         body,
@@ -67,32 +67,58 @@
 </head>
 
 <body>
-    
-       <div class="container ">
 
-        <div class="masthead ">
-            <center>
-                <h3 class="text-muted "><a href="topsecret.html ">Words by Stormy</a></h3>
-            </center>
-            <ul class="nav nav-justified ">
-
-                <li><a href="index.html">Home</a>
-                </li>
-                <li class="active "><a href="# ">Blog</a>
-                </li>
-                <li><a href="http://twitter.com/stormyjet ">Twitter</a>
-                </li>
-                <!-- This line to be replaced with proper source-->
-                <li><a href="https://github.com/stormyjet/stormyjet.github.io ">Source</a>
-                </li>
-                <li><a href="http://meteorgame.github.io ">Meteor Game</a>
-                </li>
-                <li><a href="http://mcfs.github.io ">MCFS</a>
-                </li>
-
-
-            </ul>
+    <!--Nav Begins Here-->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="topsecret.html">Words by Stormy</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a href="#">Blog</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Things I Made<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="cancer.html">Cancer Checker</a>
+                            </li>
+                            <li><a href="pokecrate/index.html">Pokecrate</a>
+                            </li>
+                            <li><a href="http://twitter.com/stormyjet">Twitter</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Technical Stuff</li>
+                            <li><a href="open.html">Open Source Docs</a>
+                            </li>
+                            <li><a href="https://github.com/stormyjet/stormyjet.github.io">Source on GitHub</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li>
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>-->
+                    <li><a href="MeteorGame/index.html">Meteor Game</a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
         </div>
+    </div>
+    <!--Nav ends here-->
     <div id="content">
         <iframe width="100%" height="100%" frameborder="0" src="http://stormyswords.tumblr.com" />
     </div>
