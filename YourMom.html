@@ -1,0 +1,70 @@
+<title>Your Mom Joke Gen</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+<link href="css/justified-nav.css" rel="stylesheet">
+<div class="container">
+    <div>
+        <script>
+            var request = new XMLHttpRequest();
+            request.onload = function() {
+                // get the file contents
+                var fileContent = this.responseText;
+                // split into lines
+                var fileContentLines = fileContent.split('\n');
+                // get a random index (line number)
+                var randomLineIndex = Math.floor(Math.random() * fileContentLines.length);
+                // extract the value
+                var randomLine = fileContentLines[randomLineIndex];
+
+
+                document.getElementById('joke').innerHTML = randomLine;
+            };
+            request.open('GET', 'yourmom.txt', true);
+            request.send();
+        </script>
+        <script type="text/javascript">
+            // Original JavaScript code by Chirp Internet: www.chirp.com.au
+             // Please acknowledge use of this code by including this header.
+
+            function getCookie(sypmtomin) {
+                var re = new RegExp(name + "=([^;]+)");
+                var value = re.exec(document.cookie);
+                return (value != null) ? unescape(value[1]) : null;
+            }
+        </script>
+        <center>
+
+            <body>
+                <div class="container">
+
+                    <div class="masthead">
+                        <center>
+                            <h1 class="text-muted"></h1>
+
+                        </center>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    //insert cookie
+                    var cookieLine = (getCookie("symptomin"));
+                    document.getElementById('symptom').innerHTML = cookieLine
+                </script>
+                <p class="notfound">
+
+                    <div id="joke" style="font-size: 500%;text-align: center;word-wrap: break-word;color:black">loading...</div>
+                    <br>
+                    <button type="button" class="btn btn-lg">
+                        <a style="color:black;float:right;" href="YourMom.html">Another!</a>
+                    </button>
+
+
+
+    </div>
+</div>
+</p>
+</body>
