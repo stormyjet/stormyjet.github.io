@@ -1,6 +1,5 @@
 # Stormy's Site
 Welcome!
-## [http://stormyjet.com](Click here)
 
 This is the repo for my wesbite, stormyjet.com
 
@@ -19,5 +18,5 @@ Transparency- who we give your data to and shiz
 
 
 
-
+## [http://stormyjet.com](Click here)
 
