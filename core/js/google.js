@@ -14,5 +14,6 @@
 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
 ga('create', 'UA-31660701-1', 'stormyjet.com');
+ga('require', 'linkid', 'linkid.js');
 ga('set', 'forceSSL', true); //force ssl
 ga('send', 'pageview');
