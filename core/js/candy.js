@@ -16,5 +16,5 @@ request.onload = function() {
     document.getElementById('candy').innerHTML = randomLine;
 };
 //were grabbing the candies from here.
-request.open('GET', 'txt/candy.txt', true);
+request.open('GET', '../txt/candy.txt', true);
 request.send();
