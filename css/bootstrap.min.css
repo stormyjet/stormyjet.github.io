@@ -2153,6 +2153,9 @@ fieldset[disabled] .btn {
     background-color: #ebebeb;
     border-color: #adadad
 }
+.redbox {
+    background-color: #FF6666;
+}
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
