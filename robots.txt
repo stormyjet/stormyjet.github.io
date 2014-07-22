@@ -1,0 +1,10 @@
+# robots.txt 
+# disallows bing
+User-agent: MSNBot
+Disallow: /
+User-agent: psbot
+Disallow: /
+User-agent: *
+Disallow: 
+Disallow: /beta/
+Disallow: /dev/
