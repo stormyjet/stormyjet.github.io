@@ -6,6 +6,30 @@
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 
+.bigtext {
+    font-size: 750%;
+    word-wrap: break-word;
+}
+@media (max-width: 300px) {
+    .bigtext {
+        font-size: 70%;
+    }
+}
+@media (min-width: 500px) {
+    .bigtext {
+        font-size: 80%;
+    }
+}
+@media (min-width: 700px) {
+    .bigtext {
+        font-size: 120%;
+    }
+}
+@media (min-width: 1200px) {
+    .bigtext {
+        font-size: 750%;
+    }
+}
 .nocss {
     opacity: 100;
     font-size: -0%;
