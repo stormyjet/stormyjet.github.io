@@ -30,6 +30,30 @@
         font-size: 750%;
     }
 }
+.subtext {
+    font-size: 200%;
+    word-wrap: break-word;
+}
+@media (max-width: 300px) {
+    .subtext {
+        font-size: 70%;
+    }
+}
+@media (min-width: 500px) {
+    .subtext {
+        font-size: 80%;
+    }
+}
+@media (min-width: 700px) {
+    .subtext {
+        font-size: 120%;
+    }
+}
+@media (min-width: 1200px) {
+    .subtext {
+        font-size: 200%;
+    }
+}
 .nocss {
     opacity: 100;
     font-size: -0%;
