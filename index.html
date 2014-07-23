@@ -115,6 +115,9 @@
     </div>
     <!--Nav ends here-->
     <center>
+        <div class="visible-xs">
+            <div class="alert alert-info" role="alert"><strong>Hey!</strong>Your screen may be too small for this website. Tyr going landscape or going to a desktop!</div>
+        </div>
         <p class="nocss ">Whoa there.
             <br>Looks like the page didn't load properly.
             <br>Click <a href="index.html ">Here</a> to reload the page. Hopefully it works! Sorry for the inconvenience
@@ -127,7 +130,13 @@
         <div>
             <div class="jumbotron">
                 <center>
-                    <p class="bigtext">Stormy's Website</p>
+                    <div class="hidden-sm">
+                        <!--Hidden on Mobile-->
+                        <p class="bigtext">Stormy's Website</p>
+                    </div>
+                    <div class="hidden-md">
+                        <h3>Stormy's Website</h3>
+                    </div>
                     <!--Candies are shown here, if they don't load, the text is shown-->
                     <div id="candy" class="subtext"></div>
 
