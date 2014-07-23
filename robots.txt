@@ -1,5 +1,7 @@
 # robots.txt 
 # disallows bing
+# made it meself
+# also why are you looking at this? you nerd.
 User-agent: MSNBot
 Disallow: /
 User-agent: psbot
