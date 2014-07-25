@@ -1,3 +1,4 @@
+      request.send();
       var request = new XMLHttpRequest();
       request.onload = function() {
           // get the file contents
@@ -10,6 +11,7 @@
           var randomLine = fileContentLines[randomLineIndex];
 
 
-          document.getElementById('first').innerHTML = randomLine;
+          document.getElementById('second').innerHTML = randomLine;
       };
-      request.open('GET', 'http://stormyjet.com/random/txt/ym-first.txt', true);
+      request.open('GET', 'http://stormyjet.com/random/txt/ym-second.txt', true);
+      request.send();
