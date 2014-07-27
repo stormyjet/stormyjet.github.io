@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<link href="core/css/bootstrap.min.css" rel="stylesheet">
 <script src="core/js/google.js"></script>
+<script src="core/js/bootstrap.min.js"></script>
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,6 +12,7 @@
     <meta name="author" content="stormyjet">
     <meta name="language" content="en-us">
     <meta name="revisit-after" content="30">
+    <meta name="google-site-verification" content="OkvES3vkDmmuSt2GLXE6-uSqPoyssekJ5quiSMuP5RM" />
     <link rel="shortcut icon" href="/core/img/favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="/core/img/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/core/img/apple-touch-icon-114x114.png">
@@ -27,27 +30,27 @@
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-TileImage" content="/core/img/mstile-144x144.png">
     <meta name="msapplication-config" content="/core/img/browserconfig.xml">
-    <title>Words by Stormy</title>
-    <link href="core/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-        body,
-        html {
-            margin: 5;
-            padding: 0;
-            height: 75%;
-            overflow: hidden;
-        }
-        #content {
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 125px;
-        }
-    </style>
+    <title>Stormy's Website</title>
 </head>
 
 <body>
+    <center>
+        <!--
+        <div class="alert alert-success">
+            <p style="font-size:22px"><strong>Wonderful!</strong> You have read this important alert</p>
+        </div>-->
+        <!--<div class="alert alert-info">
+
+            <p style="font-size:22px;">
+                <strong>Attention!</strong> info</p>
+        </div>-->
+        <!--<div class="alert alert-warning">
+            <p style="font-size:22px"><strong>warning text in bold</strong>warning text</p>
+        </div>
+        <div class="alert alert-danger">
+            <p style="font-size:22px"><strong>Uh-Oh.</strong> Looks like something bad happened, fix it?</p>
+        </div>-->
+    </center>
     <!--Nav Begins Here-->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -58,13 +61,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Stormy's Website</a>
+                <a class="navbar-brand" href="topsecret.html">Stormy's Website
+                </a>
+
+
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">Home</a>
                     </li>
-                    <li class="active"><a href="#">Blog</a>
+                    <li><a href="blog.html">Blog</a>
                     </li>
                     <li><a href="things.html">Things I Made</a>
                     </li>
@@ -88,7 +94,7 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <!--<li>
-                        <p class="navbar-text navbar-right">Other Things</p>
+                        <p class="navbar-text navbar-right">Under Construction |</p>
                     </li>
                     <li>
                         <a href="http://stormyjet.com/sNet">sNet</a>
@@ -101,25 +107,82 @@
         </div>
     </div>
     <!--Nav ends here-->
-    <div id="content">
-        <script>
-            $('iframe').css('display', 'none');
-            $('iframe').load(function() {
-                $('iframe').css('display', 'block');
-                $('#preload-img').css('display', 'none');
-            });
-        </script>
-        <iframe width="100%" height="100%" frameborder="0" src="http://stormyswords.tumblr.com" />
-        < /div>
+    <center>
+        <p class="nocss ">Whoa there.
+            <br>Looks like the page didn't load properly.
+            <br>Click <a href="index.html ">Here</a> to reload the page. Hopefully it works! Sorry for the inconvenience
+            <br>If you're smart, the CSS didn't load, so this happened.</p>
+
+    </center>
+
+    <!-- Jumbotron -->
+    <div class="container">
+        <div>
+            <div class="jumbotron">
+                <center>
+                    <p style="font-size: 750%;word-wrap:break-word;">Big Text</p>
+                    <!--Candies are shown here, if they don't load, the text is shown-->
+                    <div id="candy" style="font-size: 200%;"></div>
+
+            </div>
+            <!--end the gray box-->
+            <p class="lead">Smaller text goes here. it can be a few sentences or a paragraph! wow.
+                <br>Look! Im on a new line!
+                <br>
+                <em>EMPHASISED</em>  <strong>BOLDED</strong>
+
+            </p>
+            </center>
+        </div>
+        <hr>
+        <div class="row ">
+            <div class="col-lg-4 ">
+                <h2>LOOK AT ALL OF THIS!</h2>
+                <p>BOX</p>
+                <p><a class="btn btn-primary " href="#" role="button ">BUTTON &raquo;</a>
+                </p>
+            </div>
+            <div class="col-lg-4 ">
+                <h2>Hiring</h2>
+
+                <p>Omg!
+                    <br>A box without a button!
+                    <p>
+
+                    </p>
+            </div>
+            <div class="col-lg-4 ">
+                <h2>phew</h2>
+                <p>this one has a button</p>
+                <p><a class="btn btn-primary " href="#" role="button ">Go now &raquo;</a>
+                </p>
+            </div>
+        </div>-->
+        <br>
+        <hr>
+        <!-- Footer Begins Here -->
+        <div class="footer ">
+            <center>
+                <p>
+                    Made by StormyJet. Uses code from Bootstrap.
+                </p>
+
+            </center>
+        </div>
+
+    </div>
+    <!-- /container -->
+
 </body>
+<!--Core JS and CSS stuff. Placed at the bottom because I can put it there-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script>
     window.jQuery || document.write('<script src="core/js/vendor/jquery-1.8.2.min.js"><\/script>')
 </script>
-<script src="core/js/vendor/bootstrap.min.js"></script>
+<!--<script src="core/js/vendor/bootstrap.min.js"></script>-->
 <script src="core/js/main.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="core/js/bootstrap.min.js"></script>
 <script src="core/js/docs.min.js"></script>
+</body>
 
 </html>
