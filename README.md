@@ -18,5 +18,5 @@ Transparency- who we give your data to and shiz
 
 
 
-## [http://stormyjet.com](Click here)
+## [http://stormyjet.com](http://stormyjet.com)
 
