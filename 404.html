@@ -128,7 +128,9 @@
                     </div>
                     <h2>
                         <script>
-                            document.write(document.URL);
+                            var str = "document.write(document.URL)";
+                            str = str.replace("stormyjet.com", "");
+                            document.write(str);
                         </script>
                         isn't even real!</h2>
 
