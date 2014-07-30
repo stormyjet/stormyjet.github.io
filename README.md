@@ -20,3 +20,4 @@ Transparency- who we give your data to and shiz
 
 ## [http://stormyjet.com](http://stormyjet.com)
 
+### [beta available here](http://betajet.github.io/)
