@@ -120,9 +120,14 @@
         <div>
             <div class="jumbotron">
                 <center>
-                    <p style="font-size: 750%;word-wrap:break-word;">Things I made.</p>
-                    <!--Candies are shown here, if they don't load, the text is shown-->
-                    <div id="candy" style="font-size: 200%;"></div>
+                    <div class="hidden-xs hidden-sm">
+                        <!--Hidden on Mobile-->
+                        <p style="font-size:750%;word-wrap:break-word;">Things I made.</p>
+                    </div>
+                    <div class="hidden-md hidden-lg">
+                        <!-- Hidden on Non-Mobile-->
+                        <h1><strong>Things I made.</strong></h1>
+                    </div>
 
             </div>
             <!--end the gray box-->
