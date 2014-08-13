@@ -10,3 +10,5 @@ User-agent: *
 Disallow: 
 Disallow: /beta/
 Disallow: /dev/
+Disallow: /topsecret.html
+Disallow: /topsecret2.html
