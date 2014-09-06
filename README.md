@@ -21,3 +21,5 @@ Transparency- who we give your data to and shiz
 ## [http://stormyjet.com](http://stormyjet.com)
 
 ### [beta available here](http://betajet.github.io/)
+
+the beta is not keeping up with the current look of the site. it is to test jekyll and see if it is a good choice for this site.
