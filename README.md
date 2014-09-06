@@ -22,4 +22,4 @@ Transparency- who we give your data to and shiz
 
 ### [beta available here](http://betajet.github.io/)
 
-the beta is not keeping up with the current look of the site. it is to test jekyll and see if it is a good choice for this site.
+the beta is not keeping up with the current look of the site. it is to test site wide changes to see if they are cool or not
