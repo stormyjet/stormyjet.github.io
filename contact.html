@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <link href="core/css/bootstrap.min.css" rel="stylesheet">
-<script src="core/js/candy.js"></script>
 <script src="core/js/google.js"></script>
 <script src="core/js/bootstrap.min.js"></script>
 <link href="core/css/octicons.css" rel="stylesheet">
 <link href="core/css/sprockets-octicons.scss" rel="stylesheet">
 <script src="core/js/jquery.js"></script>
 <script src="/core/js/bootstrap.min.js"></script>
+<link href="core/css/font-awesome.min.css" rel="stylesheet">
+<link href="core/scss/font-awesome.scss" rel="stylesheet">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -37,6 +38,9 @@
     <meta name="msapplication-config" content="/core/img/browserconfig.xml">
     <title>Stormy's Website</title>
 </head>
+<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
 <body>
     <center>
@@ -56,6 +60,15 @@
             <p style="font-size:22px"><strong>Uh-Oh.</strong> Looks like something bad happened, fix it?</p>
         </div>-->
     </center>
+
+    <noscript>
+        <div class="alert alert-info">
+            <center>
+                <h2><strong>Candies are Disabled.</strong></h2>
+                <h3>To reenable, turn on javascript for this website.</h3>
+            </center>
+        </div>
+    </noscript>
     <!--Nav Begins Here-->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -73,14 +86,15 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a>
+                    <li class="active"><a href="#">Home</a>
                     </li>
                     <li><a href="blog.html">Blog</a>
                     </li>
                     <li><a href="things.html">Things I Made</a>
                     </li>
-                    <li><a href="contact.html">Contact</a>
+                    <li><a href="#">Contact</a>
                     </li>
+
                     <!--<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Things I Made<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
@@ -98,12 +112,9 @@
                     </li>-->
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <!--<li>
-                        <p class="navbar-text navbar-right">Under Construction |</p>
+
+                    <li class="bg-warning"><a href="nostalgia/">Nostalgia</a>
                     </li>
-                    <li>
-                        <a href="http://stormyjet.com/sNet">sNet</a>
-                    </li>-->
                     <li class="bg-danger"><a href="open/">openNews</a>
                     </li>
                     <li class="bg-info"><a href="meteor/index.html">Meteor Game</a>
@@ -115,6 +126,7 @@
     </div>
     <!--Nav ends here-->
     <center>
+
         <p class="nocss ">Whoa there.
             <br>Looks like the page didn't load properly.
             <br>Click <a href="index.html ">Here</a> to reload the page. Hopefully it works! Sorry for the inconvenience
@@ -124,6 +136,8 @@
     <br>
     <br>
     <br>
+
+
     <!-- Jumbotron -->
     <div class="container">
         <div>
@@ -131,60 +145,56 @@
                 <center>
                     <div class="hidden-xs hidden-sm">
                         <!--Hidden on Mobile-->
-                        <p style="font-size:750%;word-wrap:break-word;">desktop text bigger</p>
+                        <p style="font-size:750%;word-wrap:break-word;">Contact Me</p>
                     </div>
                     <div class="hidden-md hidden-lg">
                         <!-- Hidden on Non-Mobile-->
-                        <h1><strong>non desktop smaller</strong></h1>
+                        <h1><strong>Contact Me</strong></h1>
                     </div>
-                    <!--Candies are shown here, if they don't load, the text is shown-->
-                    <div id="candy" style="font-size: 200%;"></div>
-
             </div>
             <!--end the gray box-->
-            <p class="lead">Smaller text goes here. it can be a few sentences or a paragraph! wow.
-                <br>Look! Im on a new line!
-                <br>
-                <em>EMPHASISED</em>  <strong>BOLDED</strong>
+            <p class="lead">Sometimes, you may need to contact me, so here is ways you can do so!</p>
+            <table class="table table-striped">
 
-            </p>
-            </center>
+                </center>
         </div>
-        <hr>
-        <div class="row ">
-            <div class="col-lg-4 ">
-                <h2>LOOK AT ALL OF THIS!</h2>
-                <p>BOX</p>
-                <p><a class="btn btn-primary " href="#" role="button ">BUTTON &raquo;</a>
-                </p>
-            </div>
-            <div class="col-lg-4 ">
-                <h2>ANOTHER BOX </h2>
-
-                <p>Omg!
-                    <br>A box without a button!
-                    <p>
-
-                    </p>
-            </div>
-            <div class="col-lg-4 ">
-                <h2>phew</h2>
-                <p>this one has a button</p>
-                <p><a class="btn btn-primary " href="#" role="button ">YAY &raquo;</a>
-                </p>
-            </div>
-        </div>-->
+        <div class="list-group">
+            <a class="list-group-item" href="http://twitter.com/stormyjet"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
+            <a class="list-group-item" href="steamcommunity.com/id/stormbu/"><i class="fa fa-steam fa-fw"></i> Steam</a>
+            <a class="list-group-item" href="https://github.com/stormyjet"><i class="fa fa-github fa-fw"></i> GitHub</a>
+            <a class="list-group-item" href="https://www.youtube.com/user/itsstormyjet"><i class="fa fa-youtube-play fa-fw"></i> YouTube</a>
+            <a class="list-group-item" href="http://reddit.com/user/stormyjet"><i class="fa fa-reddit fa-fw"></i> Reddit</a>
+            <a class="list-group-item" href="http://stormyswords.tumblr.com"><i class="fa fa-tumblr fa-fw"></i> Tumblr</a>
+            <a href="#" class="list-group-item">And I do not have accounts on:<br>
+                <i class="fa fa-facebook fa-fw"></i><i class="fa fa-digg fa-fw"></i><i class="fa fa-foursquare fa-fw"></i><i class="fa fa-fw fa-pinterest"></i><i class="fa fa-fw fa-linkedin-square"></i><i class="fa fa-fw fa-stumbleupon"></i><i class="fa fa-fw fa-yelp"></i><i class="fa fa-instagram fa-fw"></i><i class="fa fa-fw fa-flickr"></i>
+            </a>
+        </div>
         <br>
+        <p class="lead">By Email:
+            <div class="list-group">
+                <a class="list-group-item" href="#"><i class="fa fa-paper-plane-o fa-fw"></i> General: <kbd>stormyjet 'at' this domain</kbd></a>
+                <a class="list-group-item" href="#"><i class="fa fa-building fa-fw"></i> Business Email: <kbd>business 'at' this domain</kbd></a>
+                <a class="list-group-item" href="#"><i class="fa fa-newspaper-o fa-fw"></i> openNews related: <kbd>coming soon</kbd></a>
+
+
+
+            </div>
+        </p>
         <hr>
         <!-- Footer Begins Here -->
         <div class="footer ">
             <center>
                 <p>
                     Made by StormyJet. Uses code from Bootstrap.
-                    <br><span class="octicon octicon-radio-tower"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span>
+                    <br>Made with <span class="octicon octicon-heart"></span> and hosted on <span class="octicon octicon-logo-github"></span>
+                    <br>
                 </p>
 
             </center>
+            <div class="visible-xs">
+                <div class="alert alert-info" role="alert"><strong>Just a heads up</strong>
+                    <br>Your screen may be too small for this website. Try going landscape or going to a desktop!</div>
+            </div>
         </div>
 
     </div>
