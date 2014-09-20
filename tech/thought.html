@@ -78,6 +78,8 @@
                     </li>
                     <li><a href="things.html">Things I Made</a>
                     </li>
+                    <li><a href="contact">Contact</a>
+                    </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="bg-warning"><a href="nostalgia/">Nostalgia</a>
@@ -129,6 +131,7 @@
                 <br>
                 <h3>How to use:</h3>
                 <br>TG can be used by simple things, and this is sample code:
+                <br>
                 <kbd>thought(grab); <br>
                 thought(analyze);<br>
                 get(results);
@@ -137,8 +140,24 @@
                             using(stdHTML)));
                     stop
                 </kbd>
-                <br>This will create a page and generate it based on suggestion.
-
+                <br>This will create a page and generate it based on suggestion that TG recived. another implementation is:
+                <br>
+                <kbd>think(on);<br>
+                thought(analyze);<br>
+                    transmitUsing(ssl);<br>
+                collect(suggestions);<br>
+                    in(core/tg/suggestions.tg);<br>
+                createNewPage;<br>
+                    using(HTML);<br>
+                        thought(suggestions);<br>
+                            openFile(core/tg/suggestions.tg);<br>
+                    createPage;<br>
+                        content(<br>
+                            openFile(suggestedpage.tg);<br>
+                                serve;<br>
+                end
+                </kbd>
+                <br>This assumes that you will store your suggestions in core/tg/. Other than that, it should work well <em>as long as</em> you have the file thoughtgrab.js and thoughthelper.js in your code.
 
             </p>
             <h4>ThoughtGrab. Simple, Easy, Free. Now works with headsets!</h4>
@@ -149,9 +168,11 @@
                 <center>
                     <p>
                         Made by StormyJet. Uses code from Bootstrap.
-                        <br><span class="octicon octicon-radio-tower"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span>
+                        <br>Made with <span class="octicon octicon-heart"></span> and hosted on <span class="octicon octicon-logo-github"></span>
+                        <br>
                     </p>
-
+                    <p class="font-size: 10pt">This page was generated in -3.2 seconds using <a href="tech/thought">ThoughtGrab</a>
+                    </p>
                 </center>
             </div>
 
