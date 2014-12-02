@@ -1,0 +1,1 @@
+Mirror of the core folder to emulate if it was actually in a normal folder!
