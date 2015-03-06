@@ -1,5 +1,4 @@
-/* special stuff
-mark gambardella, use with credit or whatver */
+
 /* don't use on every page */
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:100:300:400);
@@ -15,6 +14,9 @@ mark gambardella, use with credit or whatver */
     text-align: right;
 }
 
+.html {
+    font-family: 'Roboto', sans-serif;
+}
 .hidden {
     display: none;
 }
