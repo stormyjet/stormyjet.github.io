@@ -1,8 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
-
-.code92 {
-  font-family: 'Shadows Into Light Two', cursive;
+.newspot {
+    font-family: 'code92', sans-serif;
     text-align: center;
     font-size: 450%;
     font-size: 450%;
+}
+
+@font-face {
+    font-family: 'code92';
+    src: url('../fonts/bumpitup.ttf') 
+        format('truetype');
+        
 }

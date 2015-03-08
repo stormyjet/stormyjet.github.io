@@ -1,7 +1,7 @@
 
 /* don't use on every page */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:100:300:400);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Roboto:100);
 /* were using Roboto font, size 300 Light */
 
 .headline {
@@ -348,4 +348,11 @@
     .hidden-print {
         display: none !important
     }
+}
+
+.code92 {
+   font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-size: 450%;
+    font-size: 450%;
 }
