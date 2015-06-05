@@ -364,3 +364,9 @@
     font-size: 150%;
     border-top: 2px;
 }
+
+.notlink {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
