@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt|Roboto:100);
+
+.content {
+    font-family: 'Rock Salt', cursive;
+    float: left;
+}
+
+.network {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
