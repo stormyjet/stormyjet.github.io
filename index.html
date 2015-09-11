@@ -6,10 +6,9 @@
     </script>
     <!-- check if user is using https or not, if not, tell them to-->
     <script>
-        if (window.location.protocol != "https:")
-            document.getElementById(https).innerHTML = "<div class="
-        alert alert - danger " role="
-        alert ">Your connection to this website is not secure</div>"
+        if (window.location.protocol != "https:") {
+            document.getElementById(https).innerHTML = "You aren't using HTTPS to connect to this website. You should start doing that."
+        }
     </script>
     <div class="https"></div>
 
@@ -62,6 +61,7 @@
             <p class="lead" style="text-align:right;">&#391;<sub>3</sub><sup>7&#9916;</sup>
                 <br>&copy; 2015 Stormy</p>
         </div>
+        <div class="alert alert-info" role="alert" id="https">Your connection to this website is secure</div>
     </foot>
 </div>
 
