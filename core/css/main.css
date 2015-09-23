@@ -1,6 +1,5 @@
-/* create 3 beta
-this is create3 version 7 specialized BETA
-subject to change
+/* create 3
+this is create3 version 7 specialized 
 create3 7 Sc signia : &#391;<sub>3</sub><sup>7&#9916;</sup> */
 
 @import url(http://fonts.googleapis.com/css?family=Poiret+One|Roboto:100);
@@ -47,7 +46,7 @@ create3 7 Sc signia : &#391;<sub>3</sub><sup>7&#9916;</sup> */
 }
 
 .thisdivrocks {
-    background-image: url(http://stormyjet.com/core/img/mainbg.jpg);
+    background-image: url(http://stormyjet.com/core/img/main-bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -87,10 +86,8 @@ create3 7 Sc signia : &#391;<sub>3</sub><sup>7&#9916;</sup> */
     text-align: center;
 }
 
-.tupperware {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+li {
+    font-size: 15px;
 }
 
 .left {
@@ -106,7 +103,17 @@ create3 7 Sc signia : &#391;<sub>3</sub><sup>7&#9916;</sup> */
 }
 
 .rockholder {
-    background-image: url(../img/spotlight.jpg);
+    background-image: url(http://stormyjet.com/core/img/main-bg.jpg);
+    min-height: 85px;
+    max-height: 90px;
+}
+
+.actor {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 450%;
     min-height: 85px;
     max-height: 90px;
 }
@@ -355,22 +362,12 @@ create3 7 Sc signia : &#391;<sub>3</sub><sup>7&#9916;</sup> */
     }
 }
 
-.code92 {
-    font-family: 'Poiret One', cursive;
-    text-align: center;
-    font-size: 450%;
-    font-size: 450%;
-}
-
-.code92small {
-    font-family: 'Poiret One', cursive;
-    text-align: center;
-    font-size: 150%;
-    border-top: 2px;
-}
-
 .notlink {
     text-decoration: none;
     color: inherit;
     font-size: inherit;
+}
+
+.fancy {
+    font-family: 'Roboto', sans-serif;
 }
