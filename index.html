@@ -1,22 +1,42 @@
 <html>
-
-<title>CONNECTION INTERRUPTED AT THE REQUEST OF THE UNITED STATES GOVERNMENT -- EMERGENCY ALERT SYSTEM</title>
-<style>
-    .videoContainer {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
+<head>
+  <title>CONNECTION INTERRUPTED AT THE REQUEST OF THE UNITED STATES GOVERNMENT -- EMERGENCY ALERT SYSTEM</title>
+  <style>
+  #video-bg {
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    overflow: hidden;
+  }
+  #video-bg > video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* 1. No object-fit support: */
+  @media (min-aspect-ratio: 16/9) {
+    #video-bg > video { height: 300%; top: -100%; }
+  }
+  @media (max-aspect-ratio: 16/9) {
+    #video-bg > video { width: 300%; left: -100%; }
+  }
+  /* 2. If supporting object-fit, overriding (1): */
+  @supports (object-fit: cover) {
+    #video-bg > video {
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
     }
-    
-    .videoContainer video {
-        min-width: 100%;
-        min-height: 100%;
-    }
-</style>
-<div class="videoContainer">
-    <video autoplay>
+  }
+  </style>
+</head>
+<body>
+<div id="video-bg">
+   <video autoplay>
         <source src="eas.mp4" type="video/mp4" /> THE EAS MESSAGE COULD NOT BE PLAYED
     </video>
 </div>
+</body>
 </html>
+
