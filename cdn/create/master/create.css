@@ -1,6 +1,20 @@
-/* create 3 version 7 
-create3 7 Sc signia : create<sub>3</sub><sup>7</sup>
-You can either download this file, or link to here. 
+/* 
+create 3 revision 7
+by stormyjet
+last revision: August 29th, 2016 at 11:57PM
+
+create3 7: if you would like to, please insert this into attributions into your html file c<sub>3</sub>
+You don't have to, but it would be nice.
+If you want to stay on top of updates, you can just link to this file in your code. If you don't, feel free to download it.
+
+BORING LEGAL STUFF:
+Create is a free CSS file distributed under the CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/). This means that you are completley free to change whatever and do whatever with it but you must give credit. Thanks.
+/----\
+This css file contains work created by the Bootstrap project. Bootstrap is licensed under a CC BY 3.0 license. (https://creativecommons.org/licenses/by/3.0/). I am not claiming credit for their great work, it all goes to the people listed here: https://github.com/twbs/bootstrap/graphs/contributors
+|----|
+A version of this file without work created by Bootstrap is available at: stormyjet.com/cdn/create/custom/nobootstrap.css
+However it is strongly recommended that you use this file for simplicity.
+\----/
 */
 
 @import url(http://fonts.googleapis.com/css?family=Poiret+One|Roboto:100);
