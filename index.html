@@ -1,78 +1,151 @@
 <!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="http://cdn.markisprofessional.com/main/css/darkbootstrap.css" rel="stylesheet">
-<title>stormy.rungus.zone</title>
-<div class="container">
- <div class="nocss">
+<!--required business procedures-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.rungus.zone/v2/css/darkbootstrap.min.css">
+  <script src="https://cdn.rungus.zone/v2/js/jquery.min.js"></script>
+  <script src="https://cdn.rungus.zone/v2/js/bootstrap.bundle.min.js"></script>
+  <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.rungus.zone/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.rungus.zone/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.rungus.zone/favicons/favicon-16x16.png">
+  <link rel="manifest" href="https://cdn.rungus.zone/favicons/site.webmanifest">
+  <link rel="mask-icon" href="https://cdn.rungus.zone/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="https://cdn.rungus.zone/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="rungus zone">
+  <meta name="application-name" content="rungus zone">
+  <meta name="msapplication-TileColor" content="#69f0ae">
+  <meta name="msapplication-config" content="https://cdn.rungus.zone/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#69f0ae">
+  <meta property="og:title" content="rungus zone">
+  <meta property="og:url" content="https://rungus.zone">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://cdn.rungus.zone/profile.gif">
+  <meta property="og:description" content="look mom i'm in an open graph">
+  <meta name="theme-color" content="#69f0ae" />
+  <!-- how did we let it get this way -->
+  <script>
+    $(function() {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SD2H63G7CK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-SD2H63G7CK');
+  </script>
+  <div class="nocss" style="font-family:sans-serif;">
+    <hr>
     <center>
-      <h1>It seems something has gone wrong</h1></center>
-    <h2>Your browser is not properly rendering this page, or the CDN is down</h2>
-    <!-- or you're looking at the source code! hello! don't steal, give credit if u use stuff of mine, thx-->
-    <br>
-    <p>Something has messed up, and you're viewing this page without any styling. This could be because the CDN is down, something blocked the stylesheet from loading, or something else entirely. </p>
-    <br>
-    <p>Anyway, click <a href="http://markisp.pro/">here</a> to try to refresh the page, and maybe it'll be fine.</p>
+      <h1 style="font-size:50px;">something has gone wrong</h1>
+    </center>
+    <p style="font-size:150%;">this page is being loaded without any styling. you either have a slow connection, the cdn is down, or you're looking at the source code. at least it still looks alright, but this is not the design of the actual page.
+      <!-- hello! -->
+      <br>
+      <center>
+        <h3 style="font-size:150%">maybe try <a href="https://rungus.zone">refreshing?</a></h3>
+      </center>
+    </p>
+    <hr>
   </div>
+</head>
+<!-- the meat and potatoes-->
+<title>rungus zone</title>
+<nav class="navbar navbar-expand-lg fixed-bottom navbar-dark bg-dark">
+  <a href="../" class="navbar-brand" style="font-size:200%;"><span style="color:#69f0ae;">r</span>ungus<span class="text-muted">.zone</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="https://blog.rungus.zone">blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="popover" title="my portfolio is coming soon" data-placement="top"
+          data-content="ok look i just started this website and i have to consolidate so many other ones for this so give me some time thank you">portfolio</a>
+      </li>
+      <li class="nav-item dropdown dropup">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download">experiments <span class="caret"></span></a>
+        <div class="dropdown-menu" aria-labelledby="download">
+          <a class="dropdown-item" href="randomizer">enter the randomizer</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="time">time</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown dropup">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download">socials <span class="caret"></span></a>
+        <div class="dropdown-menu" aria-labelledby="download">
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCt8HTCubhlf6kn0JF9Qw4vA">subscribe on youtube</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://twitter.com/_rungus" role="button">follow on twitter</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://d.rungus.zone/" role="button">join my discord</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+</head>
 
-  <head>
-   <link rel="apple-touch-icon" sizes="180x180" href="http://cdn.markisprofessional.com/ispro/img/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://cdn.markisprofessional.com/ispro/img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://cdn.markisprofessional.com/ispro/img/favicon-16x16.png">
-<link rel="manifest" href="http://cdn.markisprofessional.com/ispro/img/site.webmanifest">
-<link rel="mask-icon" href="http://cdn.markisprofessional.com/ispro/img/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="http://cdn.markisprofessional.com/ispro/img/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="markis.pro">
-<meta name="application-name" content="markis.pro">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-TileImage" content="http://cdn.markisprofessional.com/ispro/img/mstile-144x144.png">
-<meta name="msapplication-config" content="http://cdn.markisprofessional.com/ispro/img/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
-    <nav class="nav-main">
-      <div class="nav-title">
-        <h3 style="float:left;"><span style="color:white;">stormy</span></h3>
-        <h3 class="text-muted" style="float:left;">.rungus.zone</h3></div>
-      <div class="nav-items">
-        <a href="http://stormyjet.com" class="btn btn-primary disabled" role="button">stormy.</a>   
-        <a href="http://rungus.zone/" class="btn btn-primary" role="button">rungus.zone</a>
-      </div>
-    </nav>
-  </head>
-</div>
-<hr>
-<body>
+<body style="padding-top:30px;">
+  <!-- the header -->
   <div class="container">
-    <div class="embed-responsive embed-responsive-16by9">
-       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/X0jKEiodVPI?list=FLt8HTCubhlf6kn0JF9Qw4vA"></iframe> 
+    <div class="page-header" id="banner">
+      <div class="row">
+        <div class="col-12 col-lg-8 col-md-7 col-sm-9">
+          <h1 style="font-size:150px;">you're lost.</span></h1>
+          <h3>you should not be here</h3>
+        </div>
+      </div>
     </div>
-  </div>
-  <h3> welcome to my website </h3>
-  <h4> enjoy your stay</h4>
+    <hr>
+    <!-- the body -->
+    <div class="bs-docs-section clearfix">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="page-header">
+            <h5>this is the remnants of my old website, where i still have some critical files for my older projects. there is nothing here for you.</h5>
+          </div>
+          <p class="lead">This place is a message... and part of a system of messages... pay attention to it!
 
+            Sending this message was important to us. We considered ourselves to be a powerful culture.
+
+            This place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.
+
+            What is here was dangerous and repulsive to us. This message is a warning about danger.
+
+            The danger is in a particular location... it increases towards a center... the center of danger is here... of a particular size and shape, and below us.
+
+            The danger is still present, in your time, as it was in ours.
+
+            The danger is to the body, and it can kill.
+
+            The form of the danger is an emanation of energy.
+
+            The danger is unleashed only if you substantially disturb this place physically. This place is best shunned and left uninhabited.</p>
+        </div>
+      </div>
+      <div class="row">
+        <h1><a href="https://rungus.zone">return to the rungus zone</a></h1>
+      </div>
+
+    </div>
+    <hr>
+    <!-- the footnotes -->
+
+    </footer>
   </div>
+
+
 </body>
-<br>
-<hr>
-<foot>
-    
-tracking collected by google analytics<br> install <a href="https://tools.google.com/dlpage/gaoptout">this</a> to opt out
- <br></center><hr> <p>&copy; rungus </p>
-</foot>
-<!-- scripts -->
-<script>
-  (function(i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function() {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-  ga('create', 'UA-104172809-1', 'auto');
-  ga('send', 'pageview');
-</script>
-</html>
 
+</html>
