@@ -1,0 +1,75 @@
+/* these should only be declared on:
+index.html
+dont use on other pages! */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+/* yes */
+
+.attraction {
+    text-align: center;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 15px;
+    float: left;
+    color: #ecf0f1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 500%;
+    text-align: center;
+    vertical-align: middle;
+}
+.tupperware {
+    text-align: center;
+}
+.mainattraction {
+    /*height: 200px;
+    width: 400px;*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    /*margin-left: -200px;*/
+}
+body {
+    background-image: url(../img/homepagebg.jpg);
+}
+.alignleft {
+    text-align: right;
+}
+a:link {
+    color: #ecf0f1;
+    text-decoration-color: #ecf0f1;
+    text-decoration: none;
+}
+.link {
+    color: #ecf0f1;
+    text-decoration-color: #ecf0f1;
+    text-decoration: none;
+}
+/* visited link */
+
+a:visited {
+    color: ##95a5a6;
+    text-decoration: none;
+}
+/* mouse over link */
+
+a:hover {
+    color: #bdc3c7;
+    text-decoration: none;
+}
+/* selected link */
+
+a:active {
+    color: ##7f8c8d;
+    text-decoration: none;
+}
+.copynotice {
+    position: fixed;
+    top: 97%;
+    border-left: 22px;
+    text-align: center;
+    text-decoration-color: #bdc3c7;
+    color: #515151;
+    text-align: right;
+}
